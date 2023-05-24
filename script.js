@@ -12,7 +12,7 @@ events = [`meeting her at perkins for the first time`, `walking arm-in-arm to pe
 
 const getResponse = async()=>{
     let result = await deepai.callStandardApi("text-generator", {
-        text: `Write me a letter in first person randomly picking from one of the types(love or sexual), from Ali, the fiance that you're taking the role of, to his fiance, jenin. use the word "batatas" instead of boobs sometimes. use the word "bubby" instead of baby every letter and YOU HAVE TO talk about how you miss playing the game overwatch with her every letter.`
+        text: `Write me either a love letter or a sexual letter or a sad letter in first person, from Ali, the fiance that you're taking the role of, to his fiance, jenin. use the word "batatas" instead of boobs sometimes. use the word "bubby" instead of baby every letter and talk about how you miss playing "overwatch" with her.`
     });
     console.log(result)
     $(`.output`).html(result.output)
