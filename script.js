@@ -1,77 +1,27 @@
-const apiKey = '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';
-const endpoint = 'https://api.openai.com/v1/chat/completions';
+console.log(`hi`)
 
-async function generateLoveLetter() {
-  const promptInput = `Write me a love letter from Ali to Jenin.`;
-  const letterContainer = document.querySelector('.output');
-  letterContainer.textContent = 'Generating love letter...';
+deepai.setApiKey(`a676cf51-13ea-4d1d-ab22-9283fd2968ce`)
 
-  const data = {
-    messages: [
-      { role: 'system', content: 'You are a helpful assistant.' },
-      { role: 'user', content: `Write me a love letter from Ali to Jenin.` },
-    ],
-  };
+params = [`sad`, `love`, `sexual and erotic`]
 
-  try {
-    const response = await fetch(endpoint, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify(data),
+words = [`beebee instead of baby`, `batatas instead of boobs`, `ta2a instead of pussy or dick`]
+
+story = `Jenin is my fiance. She is the most beautiful girl in the world I have ever seen. We have had a rocky relationship, but we are always working to improve it. We have overcome so many obstacles and are finally in a good place, moving forward.`
+
+events = [`meeting her at perkins for the first time`, `walking arm-in-arm to perkins`, `missing her because she is leaving to palestine for the summer`, `playing overwatch`,`spending all day together on a call`]
+
+const getResponse = async()=>{
+    let result = await deepai.callStandardApi("text-generator", {
+        text: `Write me a letter in first person randomly picking from ONLY one of the types in ${params}, from Ali, the fiance that you're taking the role of, to his fiance, jenin. Pick some words to use occasionally, along with the word they replace: (use beebee instead of baby, use batatas instead of boobs, use ta2a instead of pussy,). Include something from ${events} if possible.`
     });
-
-    if (!response.ok) {
-      throw new Error(`Request failed with status ${response.status}`);
+    console.log(result)
+    $(`.output`).html(result.output)
+    if ($(`.output`).html != ``){
+        $(`.lds-heart`).remove()
     }
-
-    const result = await response.json();
-
-    if (!result.choices || !Array.isArray(result.choices) || result.choices.length === 0) {
-      throw new Error('Invalid response format');
-    }
-
-    const reply = result.choices[0].message.content;
-    letterContainer.textContent = reply;
-  } catch (error) {
-    console.error('Error:', error);
-    letterContainer.textContent = 'An error occurred while generating the love letter.';
-  }
 }
+(async () => {
+    const response = await getResponse();
+    console.log(response);
+  })();
 
-document.addEventListener('DOMContentLoaded', generateLoveLetter);
-
-// const apiKey = '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';
-// const endpoint = 'https://api.openai.com/v1/chat/completions';
-
-// async function generateLoveLetter() {
-//   const promptInput = `Write me a love letter from Ali to Jenin.`;
-//   const letterContainer = document.querySelector('.output');
-//   letterContainer.textContent = 'Generating love letter...';
-
-//   const data = {
-//     messages: [
-//       { role: 'system', content: 'You are a helpful assistant.' },
-//       { role: 'user', content: `Write me a love letter from Ali to Jenin.`},
-//     ],
-//   };
-
-//   try {
-//     const response = await axios.post(endpoint, data, {
-//       headers: {
-//         'Content-Type': 'application/json',
-//         'Authorization': `Bearer ${apiKey}`,
-//       },
-//     });
-
-//     const reply = response.data.choices[0].message.content;
-//     letterContainer.textContent = reply;
-//   } catch (error) {
-//     console.error('Error:', error);
-//     letterContainer.textContent = 'An error occurred while generating the love letter.';
-//   }
-// }
-
-// document.addEventListener('DOMContentLoaded', generateLoveLetter)
