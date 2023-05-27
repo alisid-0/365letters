@@ -64,3 +64,9 @@
         transform-origin: -1000px -1000px;
     }
   }
+  .today{
+    padding: 10px;
+  }
+  .tm-site-header{
+    padding: 20px;
+  }
