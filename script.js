@@ -1,33 +1,5 @@
-console.log(`hi`)
 
-deepai.setApiKey(`a676cf51-13ea-4d1d-ab22-9283fd2968ce`)
-
-params = [`sad`, `love`, `sexual and erotic`]
-
-words = [`beebee instead of baby`, `batatas instead of boobs`, `ta2a instead of pussy or dick`]
-
-story = `Jenin is my fiance. She is the most beautiful girl in the world I have ever seen. We have had a rocky relationship, but we are always working to improve it. We have overcome so many obstacles and are finally in a good place, moving forward.`
-
-events = [`meeting her at perkins for the first time`, `walking arm-in-arm to perkins`, `missing her because she is leaving to palestine for the summer`, `playing overwatch`,`spending all day together on a call`]
-
-const getResponse = async()=>{
-    let result = await deepai.callStandardApi("text-generator", {
-        text: `Write me either a love letter or a sexual letter or a sad letter in first person, from Ali, the fiance that you're taking the role of, to his fiance, jenin. use the word "batatas" instead of boobs sometimes. use the word "bubby" instead of baby every letter and talk about how you miss playing "overwatch" with her.`
-    });
-    console.log(result)
-    $(`.output`).html(result.output)
-    if ($(`.output`).html != ``){
-        $(`.lds-heart`).remove()
-    }
-}
-// (async () => {
-//     const response = await getResponse();
-//     console.log(response);
-//   })();
-
-
-
-const mar27 = `I know how this website of mine has made you feel. 
+const may27th = `I know how this website of mine has made you feel. 
 I had something <em>grand</em> planned for you, but it was unfinished. 
 I should have waited before I got your hopes up only to kill them.
 This website is a reminder that things will be different, and will continue to. 
@@ -66,10 +38,12 @@ Can you prove that false rumor?
 Can you prove that false rumor when you say <em>You don't love me anymore?</em>
 I love you Jenin. I have to stop writing here because you're getting angry...
 :) I can't wait to watch this next episode with you!
+<br><br> With love,
+<br> Your husband.
+<br><br>
+May 27, 2023`
 
-March 28, 2023`
-
-const mar28 = `I'm sorry about today ;/
+const may28th = `I'm sorry about today ;/
 I don't know what happened but I'm telling you I am and will work so hard to stop anything like today from happening again.
 I don't want it to seem like part of the pattern the next time it happens, but something excuseable and different from the norm.
 There are so many things for me to work on when you're away, and I am going to do have to do so much of it alone this time.
@@ -103,5 +77,53 @@ I can't wait to continue to show you what you mean to me.
 <br><br> With love,
 <br>Your husband.
 <br>
-<br>March 28th, 2023`
-$(`.today`).html(mar28)
+<br>May 28th, 2023`
+
+const strings = {
+    may27th,
+    may28th
+  };
+  
+  $(document).ready(() => {
+    let currentString = null;
+  
+    // Populate the log with string names
+    const logContainer = $(".log");
+    Object.keys(strings).forEach((stringName) => {
+      const stringDate = stringName.slice(-4)
+    //   console.log(stringSeparate)
+      const stringMonth = stringName.substring(0, stringName.length -4)
+      const monthCap = stringMonth.charAt(0).toUpperCase() + stringMonth.slice(1);
+      const logEntry = $("<div>").text(`${monthCap} ${stringDate}`).addClass("log-entry").attr(`id`, stringName);
+      logContainer.prepend(logEntry);
+    });
+  
+    // Handle click event on string names
+    $(".log-entry").click(function () {
+        console.log(`hi`)
+      const stringName = $(this).attr(`id`);
+      currentString = strings[stringName];
+      $(".today").html(currentString); // Update the content of the "today" paragraph
+      showBackButton();
+  
+     
+    });
+  
+    // Handle back button click event
+    $(".back-button").click(function () {
+      currentString = null;
+      $(".today").empty(); // Clear the content of the "today" paragraph
+      hideBackButton();
+    });
+  
+    // Show back button
+    function showBackButton() {
+      $(".back-button").removeClass("hidden");
+    }
+  
+    // Hide back button
+    function hideBackButton() {
+      $(".back-button").addClass("hidden");
+    }
+  });
+  

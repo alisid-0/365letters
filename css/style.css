@@ -70,3 +70,12 @@
   .tm-site-header{
     padding: 20px;
   }
+  .log{
+    border: none;
+    /* color: white; */
+  }
+  .log-entry{
+    color: white;
+    text-align: center;
+  }
+  
