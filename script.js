@@ -79,9 +79,37 @@ I can't wait to continue to show you what you mean to me.
 <br>
 <br>May 28th, 2023`
 
+const may29th = `I'm going to miss you so much. Every hour that we get closer to your last gets infinitely harder. I'm worrying about different ways for us to spend our time. Better ways to spend our time.
+But the more I look for better things to do, the more I realize that it really is all just the same as long as I have time with you. As long as we're doing anything at all. The thought is comforting and makes the summer seem easier.
+What worries me about summer isn't not being able to play but it's the time difference combined with our schedules. I can't wake up and sleep with you anymore. That's the hardest part.
+I can't fall asleep to your voice, but you can to mine. You can call me whenever at any time of the day, but I can't do it with you if you're in the room with others, which you will be, unless I text you and you call me and we sit in silence.
+We each will have similar yet different struggles this summer. You can call me to fall asleep with me any time, but I can not do that with you. I need you when I sleep. I need you to explain something to me.
+Tell me about some new skincare. Tell me about how Ulta points work. Tell me about it all and do it all over again a thousand times. I love it the same every single time. I will never get bored of your words that put me to sleep and will always love them more the second time.
+Put me to sleep Jenin. When will you be able to put me to sleep again? It'll be 8am for you when I'm sleeping. How can I go 3 months without you putting me to sleep? How can you think this is going to be harder for you?
+You're going to be in a different place that isn't full of memories with you. A refreshing change of pace filled with people and activities and community. I am noneney here. I'm all alone. 
+My days will be quiet and my nights quieter. I will be living in sadness looking over at my phone every second to see if you woke up in the middle of the night and need me enough to fight your sticky eyes and text me, until you fall asleep again.
+I won't know when you fall asleep. I won't be able to hear your breaths get heavy and loud and slow. I won't be able to hear you shift around in the middle of the night. I won't be able to feel your anger when I wake up late.
+I won't be able to finish my class knowing I have you waiting for me, because you'll be getting ready for bed in a room with 2 other people. We're going to lose some of our most intimate moments and you will be surrounded by people throughout that hardship, but I will be left here all alone.
+A house much quiter than the one I was in last summer. When mama passed, the house died. You keep my house alive Jenin. My house is going to be dead this summer. I am going to start looking to start a new life somewhere else and make plans to leave this house without hearing your laughter and anger sitting in this basement I fell in love with you in. The room we shared so many emotions in. The room I spent hundreds of hours playing the piano for you in. 
+Nothing is going to be the same again after you leave this summer. I love you more than last year and you love me more too. I don't know what to do with myself when I'm not around you.
+<br><em>You're all I know.</em><br>
+Let's wake up and go back to the start of this month. This has been the most beautiful peaceful month I've had with you. We haven't talked about it, but we've fought the least this month.
+We've been the most hopeful for the future this month. We've started looking forward. We've made so much more time out of the less time we've had this month.
+I don't want you to go and it's breaking me. It's hitting me so hard right now as I type this letter. Why does it feel like I'm losing you? <br>
+Why does it feel like I'm saying goodbye? Why is your laughter playing back in my head again and again and again? <br> Why is it already beginning to feel like a memory?
+Why is it fair I get 2 hours a day with you if I'm lucky? I don't want to make you sad. I know the last few letters and even the beginning of this letter seemed happy and hopeful, but I'm so sad now.
+I will destory absolutely EVERYTHING if I feel you move even an inch farther away from me this summer. An ounce of love lost is all of love lost, and I'm serious. I need updates from you as often as you possibly can. There is no sitting on your phone allowed when we're both awake and you have the chance to text me. You chose to leave me alone here and you have to make it up somehow.
+I want to throw a brick at your face for breaking my heart, but I love you and you're my littlest lily of the valley and I must carry you to the top of this mountain, no matter how tall it is. I love you and I'm sorry for making this letter sad but I can't even believe how sad this is making me. I thought I would handle it well, but honestly I have no idea how to. 
+I need you to take the planning of our schedules seriously. Please. I'm telling you Jenin, you are all I have. I don't want to go to school anymore for 3 months. I want to hang out with you after school. I don't wanna do my homework. I wanna skip class and meet you in the hallways. I want to get in my car and drive us around during school hours. I don't care about stupid school anymore. I want to get away. With you. Please let me ruin your schedule. Please grant me that gift. And please find ways to show me your love when you're there. When we can't send each other gifts. When we have 2 hours a day together. Please find something and help us. I love you Jenin. I typed this letter out completely with one hand because I didn't have bandaids small enough for my finger and it's making it real hard to use my left hand to type. I'm sitting here waiting for you very patiently. It has been 20 minutes. You lied to me ;/ I miss you baby. Please hurry. It's our last night together. 
+I love you Janooti. Ba7ebek too much!!!
+<br><br>With love,<br><br>
+Your husband.
+<br><br> May 29th, 2023`
+
 const strings = {
     may27th,
-    may28th
+    may28th,
+    may29th
   };
   
   $(document).ready(() => {
