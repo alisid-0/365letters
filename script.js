@@ -152,6 +152,7 @@ May 31st, 2023`
 
 const june7th = ``
 const strings = {
+    may26th,
     may27th,
     may28th,
     may29th,
