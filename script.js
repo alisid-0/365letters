@@ -1,5 +1,5 @@
 
-const may27th = `I know how this website of mine has made you feel. 
+const may26th = `I know how this website of mine has made you feel. 
 I had something <em>grand</em> planned for you, but it was unfinished. 
 I should have waited before I got your hopes up only to kill them.
 This website is a reminder that things will be different, and will continue to. 
@@ -41,9 +41,9 @@ I love you Jenin. I have to stop writing here because you're getting angry...
 <br><br> With love,
 <br> Your husband.
 <br><br>
-May 27, 2023`
+May 26, 2023`
 
-const may28th = `I'm sorry about today ;/
+const may27th = `I'm sorry about today ;/
 I don't know what happened but I'm telling you I am and will work so hard to stop anything like today from happening again.
 I don't want it to seem like part of the pattern the next time it happens, but something excuseable and different from the norm.
 There are so many things for me to work on when you're away, and I am going to do have to do so much of it alone this time.
@@ -77,9 +77,9 @@ I can't wait to continue to show you what you mean to me.
 <br><br> With love,
 <br>Your husband.
 <br>
-<br>May 28th, 2023`
+<br>May 27th, 2023`
 
-const may29th = `I'm going to miss you so much. Every hour that we get closer to your last gets infinitely harder. I'm worrying about different ways for us to spend our time. Better ways to spend our time.
+const may28th = `I'm going to miss you so much. Every hour that we get closer to your last gets infinitely harder. I'm worrying about different ways for us to spend our time. Better ways to spend our time.
 But the more I look for better things to do, the more I realize that it really is all just the same as long as I have time with you. As long as we're doing anything at all. The thought is comforting and makes the summer seem easier.
 What worries me about summer isn't not being able to play but it's the time difference combined with our schedules. I can't wake up and sleep with you anymore. That's the hardest part.
 I can't fall asleep to your voice, but you can to mine. You can call me whenever at any time of the day, but I can't do it with you if you're in the room with others, which you will be, unless I text you and you call me and we sit in silence.
@@ -104,12 +104,58 @@ I need you to take the planning of our schedules seriously. Please. I'm telling 
 I love you Janooti. Ba7ebek too much!!!
 <br><br>With love,<br><br>
 Your husband.
-<br><br> May 29th, 2023`
+<br><br> May 28th, 2023`
+
+const may29th = `I can't do this. I miss you so much today. I miss you an unbelievable amount Jenin. I want to be there with you. I want to tell them I need you and I want to bring you back home. I don't know what to do with all this time if it isn't spent with you.
+Why do I have to decide between sleeping for a successful day the next day and just giving you time? Why is something as simple as you going on vacation such a cruel situation for me? I'm noneny. I'm so incredibly noneny now and I really hope it gets better. 
+I played outlast trials with Alex today and it was fun! And before that I had a medium prime rib steak at outback steak house and baby... it was TOO YUMMY NUMMY. Seasoned so well, juicy tender meat and it was just too good. 1800 calorie cut of meat. Sohail Bhaiyya got a filet mignon, and it literally looked like a little meat nugget. What an absolute waste of money. 500 calories for the same price because filet mignons are the most expensive worthless cut of meat. Literally does not fill you up at all for 30 dollars. 30. dollars. 500 calories. meat nugget. I was so sad for him Imlattam.
+After that I played outlast trials and had fun and missed you. Missed how you would scream and get mad at everyone and laugh and make my heart happy ;(. After that I set up yuzu, my switch emulator and got skyward sword working on my PC!! Took an hour to set up properly and then I played for an hour (spent most of it optimizing my emulator settings you know how I am baby). I love the game so far I think I'm really going to love this whole series! After that I played some val deathmatches and was about to queue for val and I got a text from you and my heart sank and I dodged and closed everything everything and ran to the media room couch to speak to my baby! 
+I had the slowest most boring day of my life today. Tomorrow's letter will be a better letter because I can talk to you about the things I'm learning! I loved hearing your voice after so long. I wish your airport wifi didn't completely suck ass, but that's okay. I got to sleep on the phone with you until you hung up while I was awake and didnt text me at all which broke my heart but it's fine. I still love you more today than I did yesterday bubby. Maybe this time apart will help us appreciate each other more and allow ourselves to grow and focus on ourselves when we don't have each other for most of the day. I'm looking forward to the changes I'm going to make and the ones you will too. Any way possible, we have to make some kinds of meaningful changes baby, okay?
+<br><br> I love you my princess. I will come save you my princess.<br><br> With love, <br><br> Your husband. <br><br> May 29th, 2023.`
+
+const may30th= `Hi baby! I’m so happy we watched the last of us today ;) 
+I wish you would wake up later but that’s okay baby you’re jetlagged I know that baby. 
+As I’m typing this, surge isn’t working how I want it to, 
+but it should be working when you next see it baby!! 
+90 letters for you to read! I don’t know what to do with my day Janoonti. 
+I don’t look forward to finishing class because I’m just sitting there doing nothing 
+finding something to do. Today I started learning about MongoDB! 
+We’re creating databases for our backend. The backend is what’s behind the scenes on the 
+apps and sites you use. This next unit is going to be harder because the backend is a 
+LOOOOT more code. Tomorrow’s homework is going to be rough I have a feeling because 
+today is just the introduction into installing it, what it is, etc. I worked out today 
+and felt too strong baby!! I want you to know I’m always here for you, no matter how far 
+apart we are. Our love will always be stronger than the distance, I promise.
+I wish we could sit and play overwatch again. I miss hearing your anger and laughter and calling yourself cracked and telling everyone on the team they're actually stupid as shit.
+I really don't have much else to say apart from how much I miss you. I miss you so much.
+My day used to be filled with you and now I just sit in sadness with a heavy throat.
+I want us to work on ourselves with this time apart, and I really hope we come out of this bigger and different people, that are better for each other.
+I got a booboo on my finger i accidentally cut it i dont remember if it was today or yesterday but it was on the cookies box every time i bend my lirol finger my skin opens and spreads apart and it burns but im a man so i dont care there is no pain.
+Anyways bubby once surge is back and running you should be able to see this letter my love and I can't wait for the day that it doesn't just completely stop working on your end because that is pissing me off and I know that, apart from surge being down during deployment which won't let me deploy the site, that when it's actually running like every other day, that it is completely your fault that the site does not work and it is on your phone only.
+Bye now baby, I love you too muchies!
+<br><br>With love,<br><br>
+Your husband.<br><br>
+May 30th, 2023`
+
+const may31st = `Hi my lovely princess darling cupcake sugar sweetie honey caramel sauce-filled ta2a baby! I feeling some ta2a time inside me...I need you back home baby.
+We both have needs to take care of so ta3ali come let's take care of them econo lodge style...hehehe...Also I just realized that I named all the letters wrong. Since I was writing them at the end of the day after midnight, I was naming of the day I was writing the letters on and not the day that the letter talks about. Writing after the day is over after midnight doesn't mean I have to change the whole date on it..I sorry I stupid baby. When you see these, the dates should be updated properly my love.
+Aaaaand...done. I updated it baby!! We watched the second episode of the last of us and my life flashed before my eyes when I saw an inappropriate scene. It made me so sad I had to immediately look up the parental guide on IMDB to see if the show is okay for us to watch or not. We decided everything was pretty skippable, so it's okay. That first scene was probably the least skippable one because they really threw that one on us out of nowhere. Wahhhhhh. There's a little tiny bug flying around this room and it is pissing me off so bad.
+I can't even find it but it keeps tickling me. OH GUESS WHAT ELSE HAPPENED TODAY. I WAS UPSTAIRS LOOKING FOR FOOD AT NIGHT AND AMAAN AND I WERE IN THE KITCHEN
+AND I SAW A HUUUUUGE SPIDER ON THE WALL IT WAS SO HUGE BUT SO THIN IT ALMOST LOOK LIKE A MOSQUITO BUT IT WAS A SPIDER. I THOUGHT IT WAS
+A FLY AT FIRST BECAUSE IT LOOOKED LIKE IT WAS FLYING AROUND THE ROOM, BUT IT LOOKED LIKE THAT BECAUSE IT'S LEGS WERE SO INCREDIBLY MASSIVE IT WAS ABLE TO GET FROM ONE CORNER TO THE OTHER IN HALF A SECOND!!!!
+SO I TOOK MY SLIPPER OFF, THREW IT AT THE WALL, MISSED THE SPIDER, AND THEN...the spider disappeared. I lost it. I wanted to kill myself but after a second I was like ok what the hell
+and i just walked past where it was put my slipper back on and went back downstairs. i was like dees. <br><br>
+I really hope we play something tomorrow. I miss playing games with my baby you know? And baby, you HAVE to wake up later tomorrow I will not allow you to wake up at freaking 4 am again. Not happening whatsoever. Anyways baby I'm going to stop writing here I'm breaking my head over today's homework ;_;<br>
+I love you janoonti and I will crawl to the ends of the earth if that's what it took to keep you in my life.<br><br>With love,
+<br><br> Your prince.<br><br>
+May 31st, 2023`
 
 const strings = {
     may27th,
     may28th,
-    may29th
+    may29th,
+    may30th,
+    may31st,
   };
   
   $(document).ready(() => {
