@@ -150,6 +150,7 @@ I love you janoonti and I will crawl to the ends of the earth if that's what it 
 <br><br> Your prince.<br><br>
 May 31st, 2023`
 
+const june7th = ``
 const strings = {
     may27th,
     may28th,
