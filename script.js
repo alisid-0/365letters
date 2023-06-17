@@ -150,7 +150,56 @@ I love you janoonti and I will crawl to the ends of the earth if that's what it 
 <br><br> Your prince.<br><br>
 May 31st, 2023`
 
-const june7th = ``
+
+
+const aLetterToTheFuture = `Hi my lovely ;) <br><br> You're probably reading this for the first time sometime after the 7th of June 2023 when I'm writing this, 
+but my wish is for you to come back to this some day when we're married.<br><br>
+As of today, we're growing. We're getting better. We're not married yet! Can you believe that?? But all we do is think about our marriage. All we do is dream. Dream to be where you are today.
+How was the wedding baby? Was it everything you asked for? Did you, deep down, actually want a big wedding but told me long ago that you wanted a small one? <br><br> 
+Did we dance at the wedding? Do you still talk to me often about the song we danced to? <br><br> 
+OOOOH HOWS OUR TA2A TIME?? If I know myself, I know that ta2a time is good FO REAL! And if I know you at all, I KNOW you are JUICIER THAN EVER!!! MM MM MMMM!!! IM ENJOYING THE HELL OUT OF YOU
+IN THE FUTURE ARENT I??<br><br> 
+AAAANYWAYS...I put you to sleep and told you I had to go work on my homework for the bootcamp but I wanted to speak to my Janoonti from the future. Did I fix everything I said I would?
+I know I say often how Im going to fix things. I'm going to fix this I'm going to fix that....and I know I stay true to my word. There was a time when an Ali from my own past didn't stick to his word.
+He was clumsy--"weaponised incompetence" as Jenin calls it. Won't make any excuses for myself but I grew. And I'm growing.<br><br> 
+Oh my god baby you are sooooo short-tempered it makes our relationship so spicy I wonder if you kept that or that changed. Are you looking at this thinking of how hot-headed you used to be?
+I will say one thing, though--you're growing quick right now in my present and I am noticing behavioral change. You are more forgiving and you trust my word a whole lot more in the midst of an argument.
+You don't make me feel like I won't stay true to my word. You trust me. You trust my word. The one person closest to you finally feels trusted by you. He trusts you fully and would never doubt you 
+regardless of how many mistakes you've made, but you used to doubt him a lot. You doubted me a lot Jenin. You don't know how terrible a feeling it was to always feel beneath your partner when they
+weren't perfect either. And as I type this, it's changing in front of my very eyes. You trust me Jenin. And it is the most beautiful feeling in the world. You rely on me. You BELIEVE me. I make a mistake
+and tell you I'll fix it and you TRUST me. You don't make every mistake of mine out to be a pattern anymore. We fight and make up instantly. We come to resolutions and conclusions now. We talk things out
+logically and with love. There's nothing like it ;) <br><br> 
+So tell me, where did we go for our honeymoon? Right now, Jenin and I have our minds set on Maldives. They have halal food and halal beaches where people cover up and it's so so so beautiful! Is that 
+where we went?<br><br> 
+Where all have we gone?<br><br> 
+What all have we done?<br><br> 
+What all have we ticked off our bucket list notes app?<br><br> 
+How big is our home?<br><br> 
+Do we have kids?<br><br> 
+How many kisses have we shared?<br><br> 
+How many hugs have we shared?<br><br> 
+How many goodies did I buy you?<br><br> 
+How many pieces has he taught you to play?<br><br> 
+Do I feel like home?<br><br> 
+Do you feel held?<br><br> 
+The day you come back to look at this, talk to me. Talk to the Ali next to you. Show him this letter. Show him you went back to read it. 
+You don't know how much effort he put into the things he made for you. The things he handcrafted for hundreds of hours with the thought of making you happy alone in mind.
+Answer all these questions to him. You can't talk to me I wont exist anymore when you read this in the future! But no matter how far along we've come, no matter how much we've grown...<br><br>
+The Ali that's writing to you remains forever. He's always going to be inside the Ali next to you and I promise you that. I will always be the best parts of me, and growth is judged by how much
+of the dirt I've washed off my body. The parts of Ali you love when he wrote you this letter will manifest into the whole human that is the Ali sitting next to you when you're reading this one day.<br><br>
+And one day you will read this for the last time. For the oldest Jenin reading this, we lived a good life. I apologize in advance for all the hurt I caused you, and I forgive you in advance for all
+the hurt you caused me. But I know we lived a DAMN good life. We brought each other up higher every day and we did the best with what we had, didn't we? We lived a beautiful life and I would give absolutely 
+everything to do it all over again. Go through every hardship and rough patch because I know beyond that wall is another smile of yours waiting to be felt. And at the end of the day, that's what I live for.
+And if this is your last time reading this, I hope I passed before you and that I'm waiting to spend eternity with you beyond the grave ;)<br><br>
+I love you more than you could ever know Jenin. You are my princess.
+<br><br>
+With love,
+Your husband.
+<br><br>
+June 7th, 2023
+`
+
+
 const strings = {
     may26th,
     may27th,
@@ -158,6 +207,7 @@ const strings = {
     may29th,
     may30th,
     may31st,
+    aLetterToTheFuture
   };
   
   $(document).ready(() => {
@@ -170,16 +220,16 @@ const strings = {
     //   console.log(stringSeparate)
       const stringMonth = stringName.substring(0, stringName.length -4)
       const monthCap = stringMonth.charAt(0).toUpperCase() + stringMonth.slice(1);
-      const logEntry = $("<div>").text(`${monthCap} ${stringDate}`).addClass("log-entry").attr(`id`, stringName);
+      const logEntry = $("<div>").text(`${stringName}`).addClass("log-entry").attr(`id`, stringName);
       logContainer.prepend(logEntry);
     });
   
     // Handle click event on string names
     $(".log-entry").click(function () {
         console.log(`hi`)
-      const stringName = $(this).attr(`id`);
-      currentString = strings[stringName];
-      $(".today").html(currentString); // Update the content of the "today" paragraph
+      const stringName = $(this).attr(`id`)
+      currentString = strings[stringName]
+      $(".today").html(currentString)
       showBackButton();
   
      
@@ -187,9 +237,9 @@ const strings = {
   
     // Handle back button click event
     $(".back-button").click(function () {
-      currentString = null;
-      $(".today").empty(); // Clear the content of the "today" paragraph
-      hideBackButton();
+      currentString = null
+      $(".today").empty()
+      hideBackButton()
     });
   
     // Show back button
