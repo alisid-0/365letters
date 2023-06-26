@@ -205,6 +205,9 @@ function App() {
   June 7th, 2023
   `
 
+  const itsBeenAWhile = `Hi baby. <br><br>
+  Things are changing. `
+
 
 const letters = [
   {
@@ -235,6 +238,10 @@ const letters = [
     name: `A letter to the future.`,
     string: aLetterToTheFuture
   },
+  {
+    name: `It's been a while`,
+    string: itsBeenAWhile
+  }
 ]
 
 
