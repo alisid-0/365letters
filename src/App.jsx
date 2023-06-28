@@ -208,6 +208,33 @@ function App() {
   const itsBeenAWhile = `Hi baby. <br><br>
   Things are changing. `
 
+  const eid = `Eid Mubarak, my lovely!<br><br>
+  Look back at last Eid a few months ago and just look at how much both you and I have grown since then. How much closer our future
+  feels.<br><br>
+  I want us to use Islamic milestones like Eid as milestones to measure our growth as well. This is our 4th Eid together, and each Eid has been
+  a different experience for us. We are the closest to being together forever today, and we are the farthest away today from being together forever compared
+  to the rest of our lives. We will never be farther apart than we are today. And the crazy part is, it actually feels true for the first time.
+  <br><br>
+  We've had so many setbacks, issues, and have just had life in general get in our way of progressing. What more could there possibly be?
+  Does it not feel true today? Is that doubt not going away? <br><br>
+  As much as we both say "this is it, you're the one for me," we're not there yet. Atleast, we WEREN'T. But you do feel it now, don't you? 
+  The air feels different. You're not scary anymore. The difficult conversations come and go easy. There are still hard conversations and
+  you're still a rude zift occasionally and overreact but I do too.<br><br>
+  The biggest difference is that when things seem bad or scary or you overreact or get mean, it's a SURPRISE. I don't expect it anymore and 
+  I'm certain you don't either.<br><br>
+  Let's celebrate today, on Eid, how far we've come from Eid last year in terms of our deen. Matter of fact, how far we've come since last Eid.
+  We've made so many changes recently in the past few weeks, including bringing Quran back into our daily lives. You fall asleep so fast
+  to me reading Quran for you. Before this, you wouldn't let anything get in the way of our conversations as you passed out in your bed.
+  But you now let Quran put you to sleep. What better growth could there be?<br><br>
+  Now no Eid is complete without an Eidi, so I decided to something a liiiittle different this time: <br><br>
+  Number: 6302263986511084 <br>
+  Pin: 40272059 <br><br>
+  Enjoy baby! Eid Mubarak!
+  <br><br>
+  Love,
+  Your husband. <br><br>
+  June 27th, 2023`
+
 
 const letters = [
   {
@@ -241,6 +268,10 @@ const letters = [
   {
     name: `It's been a while`,
     string: itsBeenAWhile
+  },
+  {
+    name: `Eid Mubarak`,
+    string: eid
   }
 ]
 
