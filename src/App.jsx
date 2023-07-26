@@ -246,13 +246,70 @@ function App() {
   The past is truly unrecognizable and requires great amounts of manpower and elbow grease just to lift the soot off of its memory.
   Time heals all wounds and look where it brought us. Everything is coming to fruition. There is no greater peace than the promise of the future.
   There is no greater promise of the future than of ours becoming one. There is no greater place to be than the haven in a storm I found in you.
-  As the world wails and cries and crashes and burns, you grow to be a bigger sanctuary every day. You are my safe space.<br><br>
+  As the world wails and cries and crashes and burns, you grow to be a nigger heaven every day. You are my safe space.<br><br>
   It took me my lifetime to realize that you, having known me only a fraction of the time my family has, are the only soul that sees my flaws as
-  part of me. They are things I need to change but my hurt and my burden and my lacking are all just parts of me that fade away as your waves wash over me
+  a testament to my journey. They are things I need to change but my hurt and my burden and my lacking are all just parts of me that fade away as your waves wash over me
   and cleanse me every moment.<br><br>
   The rest of our lives is a symphony we are conducting together. We are standing close to the precipice of our future and it isn't
   fear or uncertainty that fills me. Rather, it's anticipation, hope, and undying excitement. <br><br>
-  We just work. Like the sea and the horizon, wine and cheese, or peanut butter and jelly.`
+  We just work. Like the sea and the horizon, wine and cheese, or peanut butter and jelly.
+  The occasional whiffs of your scent in the air, the soft echo of your laughter in my mind, they become my sancruary amidst the turmoil of living.
+  <br><br>
+  Until God gifted me with your presence, living was a tragedy. My days stale and full of myself, the person I hate the most. <br><br>
+  You saved me from burying myself and I will be forever grateful. You saved me from a life of the words I hate more than I hate myself--I, my, and mine--for nothing
+  is owned but is owned by you, too. All of me is yours and all of you is mine. <br><br>
+  This is the life I want to live. A life envied by everyone around the world, for what a soul craves and fights until the day of judgement to 
+  hold in the afterlife, I am granted today. <br><br>
+  I will chase you to the ends of the earth, burning every single thing in my path. I have devoted our entire life to you.
+  The happier you are, the happier am I. I would be blessed to be even just a little figure on your vanity, collecting dust by the years, if
+  it meant I was allowed into your space. I would spend my days breathing in just the smallest droplets of life you give off into the air so generously.
+  It is all I need to survive, and yet, would last me 3 human lifetimes. I would have the privilege of looking at you if you ever turned me to face you.
+  You would have no idea I existed and would continue on with your life with me in your possession. And the greatest realization I have ever come to is 
+  that I truly just desire to be something in your possession. I just want to be needed by you. That's all I need and it is everything I get today.<br><br>
+
+  Yet, how fortunate am I that I am not a mere trinket on your shelf but flesh and blood, a living testament to your love.
+  I get to laugh with you. I get to talk to you. I get to know what runs through your mind. What makes you happy.
+  What makes you sad. What makes you annoyed. What brings you joy. What keeps you up at night and what puts you to sleep.
+  I get to be the person for you that you are for me. Even if I can only do a fraction of what you do for me, I know that it would mean the world to you. 
+  Because that tiny fraction, multiplied by ten, is the overwhelming love I receive from you, a love that sets my soul ablaze, leaves me yearning for more. 
+  Your love kindles a fire in my soul, a fire that warms me in the cold light of day and cools in the dying embers of dusk.  <br><br>
+  Our story is just beginning. <br><br>
+  It is the echo of an age-old promise, <br><br>
+  The whisper of a future yet unwritten, <br><br>
+  A future we will read together, one page at a time.<br><br>
+  And you, my love, are the ink that will etch our tale into the annals of time. <br><br>
+  And what a glorious tale it promises to be. <br><br>
+  As I face the uncertainties of tomorrow, I am fortified by the memory of your love. I know that whatever the future holds, you are with me, and that alone is enough to face whatever comes our way. 
+  For in the dance of life, in the symphony of existence, there is no partner I'd rather have than you. So here's to us, to our journey, to the story we have yet to write.<br><br>
+  Until then, remember that I carry you in my heart, in every beat, in every breath. You are my past, my present, and my future. You are my everything.<br><br>
+
+  And so, I write to you, my beatiful arab princess, not to just express the depth of my feelings, but to make a promise. 
+  A promise of more. More love, more laughter, more understanding, more of us. As the sun promises to rise each day, as the stars promise to shine each night, I promise you more.<br><br>
+  More of shared mornings and quiet evenings, more shared dreams and conquered fears. 
+  More shared successes and learned failures. More shared silence and meaningful conversations. More moments of joy, moments of sorrow, moments of triumph, and moments of defeat.<br><br> 
+  More of everything that makes us, us.<br><br>
+
+  Because love, real love, isn't just about the happy moments. As you once told me, we can never, on any given day, give each other equal amounts of effort. True love requires
+  compromise. I fill in the gaps as you do mine. You are ever gentle with my soul.<br><br>
+
+  Because love, real love, is about growing together, learning together, and building a life that's intertwined so seamlessly that it becomes impossible to tell where one ends and the other begins.<br><br>
+
+  And one day I will wake up and read this with you. And we will look back on this as we now look back on a past long forgotten.<br><br>
+  To see you in the morning light as the first orange hazes of sun hit your peach fuzz is to witness the dawn of my day and life anew.
+  And as I feel the divinity of your warmth as the day yawns and stretches,
+  and as the world grows quiet and the hustle of life slows down, 
+  and as the sun dips below the horizon and a diminuendo of warmth envelopes us,
+  and as the symphony of orange and purple hues gradually soften to a quiet, intimate silence, 
+  I find solace in our shared silence. Every day we grow closer to death, I am happier. They are filled with a love so profound that it transcends the barriers of spoken language. 
+  And in those moments, I realize that I do not just exist alongside you, I exist because of you.
+  And in those moments I find an understanding so deep that words fail to do justice. Alas, your eyes are ever the loudest violin in the room.<br><br>
+  
+  With love, <br>
+  Your husband, soon.
+  <br><br>
+  <br><br>
+  I guess this is finally a surprise I haven't spoiled. My first work of art dedicated to you. Written over the course of two months entailing countless reads and re-reads of poetry I haven't
+  been able to keep track of. A previously unfinished work with progress fueled, yet again, by your disdain of the illusion of my lack of effort. But I promise you, an illusion is all it will ever be.`
 
 
 const letters = [
@@ -293,7 +350,7 @@ const letters = [
     string: eid
   },
   {
-    name: 'A look back',
+    name: 'The Loudest Violin In The Room.',
     string: reflection
   }
 ]
