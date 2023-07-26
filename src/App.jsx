@@ -235,6 +235,25 @@ function App() {
   Your husband. <br><br>
   June 27th, 2023`
 
+  const reflection = `The past speaks of the future. 
+  <br><br>
+  I'm sorry I haven't written to you in a while. It's getting rough out here and I'm on the front lines. I haven't had a chance to rest.
+  But throughout it all, your memory is an everlasting hug. There is no greater comfort.
+  Listening to Joe Hisaishi's "One Summer's Day" made me think of Steins Gate's "Believe Me". It reminded me of very uncertain times.
+  At our worst and our lowest, listening to this piece reminded me of the few good times we had prior. Of a time that proved to me that it will be 
+  worth it. How couldn't you be?<br><br>
+  What a ways we've come.<br><br>
+  The past is truly unrecognizable and requires great amounts of manpower and elbow grease just to lift the soot off of its memory.
+  Time heals all wounds and look where it brought us. Everything is coming to fruition. There is no greater peace than the promise of the future.
+  There is no greater promise of the future than of ours becoming one. There is no greater place to be than the haven in a storm I found in you.
+  As the world wails and cries and crashes and burns, you grow to be a bigger sanctuary every day. You are my safe space.<br><br>
+  It took me my lifetime to realize that you, having known me only a fraction of the time my family has, are the only soul that sees my flaws as
+  part of me. They are things I need to change but my hurt and my burden and my lacking are all just parts of me that fade away as your waves wash over me
+  and cleanse me every moment.<br><br>
+  The rest of our lives is a symphony we are conducting together. We are standing close to the precipice of our future and it isn't
+  fear or uncertainty that fills me. Rather, it's anticipation, hope, and undying excitement. <br><br>
+  We just work. Like the sea and the horizon, wine and cheese, or peanut butter and jelly.`
+
 
 const letters = [
   {
@@ -272,6 +291,10 @@ const letters = [
   {
     name: `Eid Mubarak`,
     string: eid
+  },
+  {
+    name: 'A look back',
+    string: reflection
   }
 ]
 
