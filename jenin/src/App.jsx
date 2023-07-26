@@ -246,7 +246,7 @@ function App() {
   The past is truly unrecognizable and requires great amounts of manpower and elbow grease just to lift the soot off of its memory.
   Time heals all wounds and look where it brought us. Everything is coming to fruition. There is no greater peace than the promise of the future.
   There is no greater promise of the future than of ours becoming one. There is no greater place to be than the haven in a storm I found in you.
-  As the world wails and cries and crashes and burns, you grow to be a nigger heaven every day. You are my safe space.<br><br>
+  As the world wails and cries and crashes and burns, you grow to be a bigger heaven every day. You are my safe space.<br><br>
   It took me my lifetime to realize that you, having known me only a fraction of the time my family has, are the only soul that sees my flaws as
   a testament to my journey. They are things I need to change but my hurt and my burden and my lacking are all just parts of me that fade away as your waves wash over me
   and cleanse me every moment.<br><br>
