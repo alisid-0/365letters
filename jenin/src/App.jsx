@@ -380,15 +380,15 @@ const letters = [
     const answersOrder = [15, 14, 13, 4, 2, 6, 9, 5, 7];
 
     const initialAnswers = {
-      15: 'valorant',
-      14: 'always',
-      13: 'lalaland',
-      4: 'ethereal',
-      2: 'ninitime',
-      6: 'triplecheeseburger',
-      9: 'indian',
-      5: 'never',
-      7: 'everythin',
+      15: '',
+      14: '',
+      13: '',
+      4: '',
+      2: '',
+      6: '',
+      9: '',
+      5: '',
+      7: '',
     };
 
     const [answers, setAnswers] = useState(initialAnswers);
