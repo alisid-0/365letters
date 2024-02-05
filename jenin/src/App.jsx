@@ -360,61 +360,22 @@ const letters = [
   }
 ]
 
-const AudioPlayer = () => {
-  return (
-    <>
+  const AudioPlayer = () => {
+    return (
       <iframe
-        width="0%"
+        width="0"
         height="0"
-        scrolling="no"
-        frameborder="no"
-        allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/953606128&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        src="https://www.youtube.com/embed/D3ovuBdbUqk?si=2DNtCVxR8UZfjOfy&amp;autoplay=1&controls=0"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
       ></iframe>
-      <div
-        style={{
-          fontSize: '10px',
-          color: '#cccccc',
-          lineBreak: 'anywhere',
-          wordBreak: 'normal',
-          overflow: 'hidden',
-          whiteSpace: 'nowrap',
-          textOverflow: 'ellipis',
-          fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif',
-          fontWeight: '100',
-        }}
-      >
-        <a
-          href="https://soundcloud.com/muathkhalifa"
-          title=""
-          target="_blank"
-          style={{ color: '#cccccc', textDecoration: 'none' }}
-        >
-          
-        </a>{' '}
-        ·{' '}
-        <a
-          href="https://soundcloud.com/muathkhalifa/mia-and-sebastians-theme"
-          title="Mia and Sebastian’s theme"
-          target="_blank"
-          style={{ color: '#cccccc', textDecoration: 'none' }}
-        >
-          
-        </a>
-      </div>
-    </>
-  );
-};
+    );
+  };
+
 
   const CrosswordSection = () => {
-
-    const audio = new Audio(''); 
-
-    const playAudio = () => {
-      audio.play();
-    };
-
-
 
     const answersOrder = [15, 14, 13, 4, 2, 6, 9, 5, 7];
 
@@ -444,23 +405,17 @@ const AudioPlayer = () => {
       7: 'everything',
     };
 
-    // Check if all answers are correct
     const allAnswersCorrect = Object.keys(answers).every(
       (number) => answers[number].toLowerCase() === correctAnswers[number]
     );
 
-    if (allAnswersCorrect) {
-      playAudio();
-    }
-
     return (
       <div className="crossword-section">
         <div className="crossword-grid">
+          
         <div className={`will-you-be-my ${allAnswersCorrect ? 'fade-in' : ''}`} style={{fontSize:'25px', color:'white', marginBottom: '20px'}}>
           Will you be my
         </div>
-        <AudioPlayer />
-          {/* Add crossword input fields here in the specified order */}
           {answersOrder.map((number) => (
             <div key={number} style={{marginBottom: '20px'}}>
               <span>{number}. </span>
@@ -480,8 +435,9 @@ const AudioPlayer = () => {
         <div className={`will-you-be-my ${allAnswersCorrect ? 'fade-in' : ''}`} style={{fontSize:'25px', color:'white'}}>
           ?
         </div>
-
-
+        {allAnswersCorrect && (
+        <AudioPlayer/>
+      )}
       </div>
     );
   };
@@ -503,7 +459,9 @@ const AudioPlayer = () => {
             </Button>
           </div>
         ))}
+
       </div>
+
       
     </>
   );
