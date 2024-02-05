@@ -362,7 +362,7 @@ const letters = [
 
   const CrosswordSection = () => {
 
-    const audio = new Audio('src/assets/mia.mp3'); 
+    const audio = new Audio('./src/assets/mia.mp3'); 
 
     const playAudio = () => {
       audio.play();
