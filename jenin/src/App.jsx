@@ -352,34 +352,115 @@ const letters = [
   {
     name: 'The Loudest Violin In The Room.',
     string: reflection
+  
+  },
+  {
+    name: 'Surprise!',
+    string: ''
   }
 ]
 
+  const CrosswordSection = () => {
+
+    const audio = new Audio('src/assets/mia.mp3'); 
+
+    const playAudio = () => {
+      audio.play();
+    };
+
+
+
+    const answersOrder = [15, 14, 13, 4, 2, 6, 9, 5, 7];
+
+    const initialAnswers = {
+      15: 'valorant',
+      14: 'always',
+      13: 'lalaland',
+      4: 'ethereal',
+      2: 'ninitime',
+      6: 'triplecheeseburger',
+      9: 'indian',
+      5: 'never',
+      7: 'everythin',
+    };
+
+    const [answers, setAnswers] = useState(initialAnswers);
+
+    const correctAnswers = {
+      15: 'valorant',
+      14: 'always',
+      13: 'lalaland',
+      4: 'ethereal',
+      2: 'ninitime',
+      6: 'triplecheeseburger',
+      9: 'indian',
+      5: 'never',
+      7: 'everything',
+    };
+
+    // Check if all answers are correct
+    const allAnswersCorrect = Object.keys(answers).every(
+      (number) => answers[number].toLowerCase() === correctAnswers[number]
+    );
+
+    if (allAnswersCorrect) {
+      playAudio();
+    }
+
+    return (
+      <div className="crossword-section">
+        <div className="crossword-grid">
+        <div className={`will-you-be-my ${allAnswersCorrect ? 'fade-in' : ''}`} style={{fontSize:'25px', color:'white', marginBottom: '20px'}}>
+          Will you be my
+        </div>
+          {/* Add crossword input fields here in the specified order */}
+          {answersOrder.map((number) => (
+            <div key={number} style={{marginBottom: '20px'}}>
+              <span>{number}. </span>
+              <input
+                type="text"
+                value={answers[number]}
+                onChange={(e) => {
+                  const updatedAnswers = { ...answers };
+                  updatedAnswers[number] = e.target.value;
+                  setAnswers(updatedAnswers);
+                }}
+                style={{ backgroundColor: 'white', borderRadius: '5px', color:'black' }}
+              />
+            </div>
+          ))}
+        </div>
+        <div className={`will-you-be-my ${allAnswersCorrect ? 'fade-in' : ''}`} style={{fontSize:'25px', color:'white'}}>
+          ?
+        </div>
+
+
+      </div>
+    );
+  };
 
   const [selectedPost, setPost] = useState(letters[letters.length-1].string)
 
   return (
     <>
-      <Container className='top py-5 mt-5 px-5' style={{backgroundColor:`hotpink`, borderRadius:`60px`, fontSize: `20px`}}>
+      <div className='top py-5 mt-5 px-5' style={{ backgroundColor: `hotpink`, borderRadius: `60px`, fontSize: `20px` }}>
         <h1 className='text-light'>Dear Janoonti,</h1>
-        <p className='text-light'>
-        {selectedPost.split('<br>').map((line, i) => 
-          <span key={i}>
-            {line}
-            <br />
-          </span>
-        )}
-      </p>
-      </Container>
-      <Container className='bottom py-5 mt-5' style={{display: `flex`, flexDirection:`column`, gap: `1rem`, alignItems: `center`, backgroundColor:`lightblue`, borderRadius:`60px`}}>
-        {letters.reverse().map((letter,index)=>(
-          <Button onClick={()=>setPost(letter.string)}variant='light' style={{maxWidth:`20rem`}} key={index}>{letter.name}</Button>
+        <div className='text-light' dangerouslySetInnerHTML={{ __html: selectedPost }} />
+        {selectedPost === '' && <CrosswordSection />}
+      </div>
+      <div className='bottom py-5 mt-5' style={{ display: `flex`, flexDirection: `column`, gap: `1rem`, alignItems: `center`, backgroundColor: `lightblue`, borderRadius: `60px` }}>
+        {letters.reverse().map((letter, index) => (
+          <div key={index} style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <Button onClick={() => setPost(letter.string)} variant='light' style={{ maxWidth: `20rem` }} key={index}>
+              {letter.name}
+            </Button>
+          </div>
         ))}
-      </Container>
+      </div>
+      
     </>
-  )
+  );
 
-  
 }
 
 export default App

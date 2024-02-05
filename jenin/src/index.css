@@ -55,6 +55,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.will-you-be-my {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+}
+
+/* Define the fade-in animation when all answers are correct */
+.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
